@@ -1,0 +1,145 @@
+
+body{
+	margin:auto;	
+}
+footer{
+	border-style:solid;
+	border-color:#000000;
+	text-align:center;
+	font-size:0.9em;
+	background:#000000;
+	color:#ffffff;
+	padding:10px;
+	clear:both;
+}
+#layout{
+	width:1280px; 
+	margin:0 auto;
+}
+#titlebarlay{
+	height:50px;
+	text-align:center;
+	margin: auto;
+	background:#000000;
+	position:relative;
+}
+#titlelist{
+	list-style-type:none;
+}
+#titlelist li{
+	display:inline;
+	padding:10px 4px;
+	font-size:0.9em;
+	margin:0px 5px;
+	text-decoration:none;
+}
+#titlelist a{
+	color:#ffffff;
+	border-color:#2211ee;
+	border-style:solid;
+	background:#000000;
+	padding:5px;
+}
+#titlelist a:hover{
+	background:#2211ee;
+	color:#eeeeee;
+}
+hr{
+	padding:2px;
+	margin:5px 2px;
+	border-style:solid;
+	background-color:#2211ee;
+}
+.formtable{
+	display:table;
+	border-style:groove;
+	border-radius:20px/40px;
+	margin:5px 0px;
+	padding:10px;
+	background-color:#eeeeee;
+	
+}
+.column1{
+	display:table-cell;
+	width:426px;
+}
+.column2{
+	display:table-cell;
+	border: 3px groove;
+	width:426px;
+	margin:auto;
+}
+.column3{
+	display:table-cell;
+	border:3px groove;
+	margin:auto;
+	width:426px;
+}
+fieldset{
+	border: 5px groove;
+	border-color:#aa0011;
+	margin:3px;
+}
+legend{
+	border:5px groove;
+	border-color:#0088aa;
+	padding:3px;
+	font-weight:bold;
+	color:#0000cc;
+	background:#ffee00;
+}
+#amortization, #intRate, #mortYear, #mortMonth{
+	padding:5px;
+	margin:10px;
+}
+.labels{
+	display:inline-block;
+	text-align:left;
+	width:150px;
+	font-weight:bold;
+}
+.submitbutton{
+	margin-left:100px;
+	padding:0px 15px;
+	background:#ffffff;
+	border: 5px solid;
+	color:#eeeeee;
+	font-weight:bold;
+	border-color:#2211ee;
+	background:#2211ee;
+}
+.selectlabel{
+	font-weight:bold;
+	margin: 0px 0px -1px;
+}
+.selectlabel2{
+	font-weight:bold;
+	margin: 0px 0px 0px 90px
+}
+
+select{
+	padding:0px 25px 0px 0px;
+	margin:0px 40px 0px 0px;
+
+}
+.radiobuttons{
+	border: hidden;
+}
+.radiobuttons tr,td{
+	border:hidden;
+	padding: 0px 5px;
+	font-weight:normal;
+}
+.calbutton{
+	border:2px solid;
+	border-color:#11bb00;
+	margin-left:100px;
+}
+.calinput{
+	margin-left:150px;
+}
+#errors{
+	width:340px;
+	color:#0055dd;
+	position:relative;
+}
