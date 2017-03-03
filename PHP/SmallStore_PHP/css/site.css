@@ -1,0 +1,86 @@
+/*Subject Code and Section: INT322B
+       *Name: Sebastian Vieira
+       *Date Submitted: June 25/2015
+       *Student Declaration
+
+I/we declare that the attached assignment is my/our own work in accordance with Seneca Academic Policy. No part of this assignment has been copied manually or electronically from any other source (including web sites) or distributed to other students.
+
+Name Sebastian Vieira
+Student ID 044830149*/
+body{
+                   margin:auto;
+                   width:1028px;
+                   background-color:#eeeeee;
+}
+hr {
+                   width:1028px;
+                   border-color:#0011aa;
+                   
+}
+h1{
+                   text-align:center;
+                    
+}
+#titlebar{
+                    margin:auto;
+                    list-style:none;
+                    width:1028px;
+                    border: solid 5px;
+                    padding:5px;
+}
+#titlebar li{
+                    text-align:center;
+                    display:inline;
+                    padding: 10px;
+}
+#titlebar a{
+                    color:#00aadd;
+                    text-decoration:none;
+}
+#titlebar a:hover{
+                    color:#ee0000;
+}
+div{
+                    margin:auto;
+                    width:1028px;
+}
+.text1{
+                    font-size:11px;
+}
+.labels{
+                    display: inline-block;
+                    text-align:left;
+                    width:150px;
+                    font-weight:bold;
+}
+input[type=text]{
+                  margin:5px 0px;
+                  
+}
+.display{
+        width:1028px;
+        border:2px solid;
+        margin:10px 0px;
+        border-collapse: separate;
+        
+}
+.display tr td{
+                   text-align:center;                  
+}
+.display tr:nth-child(odd) {
+                   background:#dddddd;
+}
+.display tr:nth-child(even){
+                   background:#dddd11;
+}
+.errors{
+                   color:#ff2211;
+}
+/*Logo CSS*/
+img{
+                   width:450px;
+                   display:block;
+                   margin-bottom:10px;
+                   margin-left:auto;
+                   margin-right:auto;
+}
